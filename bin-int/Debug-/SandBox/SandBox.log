@@ -1,0 +1,21 @@
+﻿Build started 11/27/2022 7:51:09 PM.
+     1>Project "c:\dev\Axel\SandBox\SandBox.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "c:\dev\Axel\bin-int\Debug-\SandBox\SandBox.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"c:\dev\Axel\bin-int\Debug-\SandBox\\" /Fd"c:\dev\Axel\bin-int\Debug-\SandBox\vc100.pdb" /Gd /TP /errorReport:prompt Application.cpp
+         Application.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\dev\Axel\bin\Debug-\SandBox\SandBox.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"c:\dev\Axel\bin-int\Debug-\SandBox\SandBox.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"c:\dev\Axel\bin\Debug-\SandBox\SandBox.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\dev\Axel\bin\Debug-\SandBox\SandBox.lib" /MACHINE:X64 "c:\dev\Axel\bin-int\Debug-\SandBox\Application.obj"
+         "c:\dev\Axel\bin\Debug-\Axel\Axel.lib"
+         SandBox.vcxproj -> c:\dev\Axel\bin\Debug-\SandBox\SandBox.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\dev\Axel\bin\Debug-\SandBox\SandBox.exe;#1" /manifest "c:\dev\Axel\bin-int\Debug-\SandBox\SandBox.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "c:\dev\Axel\bin-int\Debug-\SandBox\SandBox.unsuccessfulbuild".
+         Touching "c:\dev\Axel\bin-int\Debug-\SandBox\SandBox.lastbuildstate".
+     1>Done Building Project "c:\dev\Axel\SandBox\SandBox.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

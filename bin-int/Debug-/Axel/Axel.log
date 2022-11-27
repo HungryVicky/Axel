@@ -1,0 +1,23 @@
+﻿Build started 11/27/2022 7:49:05 PM.
+     1>Project "c:\dev\Axel\Axel\Axel.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "c:\dev\Axel\bin-int\Debug-\Axel\Axel.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "c:\dev\Axel\bin-int\Debug-\Axel\Axel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"c:\dev\Axel\bin-int\Debug-\Axel\\" /Fd"c:\dev\Axel\bin-int\Debug-\Axel\vc100.pdb" /Gd /TP /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\dev\Axel\bin\Debug-\Axel\Axel.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"c:\dev\Axel\bin-int\Debug-\Axel\Axel.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"c:\dev\Axel\bin\Debug-\Axel\Axel.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\dev\Axel\bin\Debug-\Axel\Axel.lib" /MACHINE:X64 /DLL "c:\dev\Axel\bin-int\Debug-\Axel\test.obj"
+            Creating library c:\dev\Axel\bin\Debug-\Axel\Axel.lib and object c:\dev\Axel\bin\Debug-\Axel\Axel.exp
+         Axel.vcxproj -> c:\dev\Axel\bin\Debug-\Axel\Axel.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\dev\Axel\bin\Debug-\Axel\Axel.dll;#2" /manifest "c:\dev\Axel\bin-int\Debug-\Axel\Axel.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "c:\dev\Axel\bin-int\Debug-\Axel\Axel.unsuccessfulbuild".
+         Touching "c:\dev\Axel\bin-int\Debug-\Axel\Axel.lastbuildstate".
+     1>Done Building Project "c:\dev\Axel\Axel\Axel.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28
